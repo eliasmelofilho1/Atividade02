@@ -1,0 +1,42 @@
+/*Primeiros passos do CSS*/
+body {
+    background-color: aqua;
+}
+p {
+    text-align: center;
+    margin: 20px auto;
+
+}
+h2 {
+    color: brown;
+}
+/*Configurações do Menu*/
+#bodyindex {
+    background-color: rgb(229, 200, 164);
+    text-align: left;
+    border-width: 10px;
+    margin: 20 auto;
+    border: red solid 1px;
+}
+.menu {
+    list-style: none;
+    border: 2px solid black;
+    float: left;
+}
+.menu li {
+    position: relative;
+    float: left;
+    border-right: 2px solid brown;
+}
+.menu li a {
+    color:chocolate;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+}
+.menu li a:hover {
+    background: yellow;
+    color: darkred;
+    box-shadow: 3px 10px 0px blue;
+    text-shadow: 0px 0px 5px whitesmoke;
+}
